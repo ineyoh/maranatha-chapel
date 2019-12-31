@@ -1,0 +1,276 @@
+/* Core style */
+body{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    line-height: 38px;
+    font-size: 1.1em;
+    font-weight: 400;
+    text-align: center;
+}
+
+#logo{
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    width: 4.5rem;
+    position: absolute;
+    top: 0.1rem;
+    left: 4rem;
+}
+
+/* header{
+    background: url('../images/heavens.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    min-height: 350px;
+    position: relative;
+} */
+.slider{
+    min-height: 380px;
+}
+.slider .indicators .indicator-item.active {
+    background-color: rgb(0, 0, 179);
+  }
+
+.verse{
+    color: red;
+}
+
+#nav-bar{
+    margin-right: 5rem;
+}
+
+#nav-bar li a{
+    color:#0277bd;
+    font-weight: 600;
+}
+
+#mobile-nav{
+    margin-left: 4rem;
+    color: rgb(3, 3, 136); 
+}
+
+#mobile-demo li a{
+    color: rgb(3, 3, 136);
+}
+
+.title{
+    font-size: 2.0rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.2rem;
+    text-align: center;
+    color: rgb(39, 78, 252);
+}
+
+.holder{
+    margin-bottom: 2rem;
+    padding: 0.2rem 1.0rem;
+    width: 100%;
+    background-color: #ffffffe3;
+    box-shadow: 0px 0px 10px #A2A2A229;
+}
+
+#bulletin{
+    width:380px;
+    height:620px;
+}
+
+.parallax-container {
+    height: 200px;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  }
+
+ 
+.donation-content{
+font-size: 18px;
+line-height: 35px;
+}
+
+ /* Responsive Video */
+.video-container{
+    position: relative;
+    margin: 1rem auto;
+    height: 0;
+  }
+  
+ #divider{
+    padding: 2rem;
+    height: 200px;
+    margin: 4rem auto;
+    background-image: linear-gradient(rgb(41, 82, 136), rgba(255, 255, 255, 0));
+}
+
+#divider p{
+    font-size: 1.1em;
+    color: white;
+}
+
+#divider h5{
+    color: white;
+    font-size: 2.0em;
+    text-align: center;
+}
+
+.logistics{
+    margin-top: 2rem;
+}
+
+.location{
+    font-size: 0.8em;
+    margin-left: 2.5rem;
+    color: #435E8D;
+}
+
+.num{
+    font-size: 0.8em;
+    margin-right: 0;
+}
+
+
+.page-footer{
+    margin-top: 3rem;
+    background-color: #0D47A1;
+}
+
+
+
+/* History.html */
+
+#history-text{
+    text-align: justify;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+/* Ministry.html */
+
+.ministry-holder{
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    width: 100%;
+    background-color: #ffffffe3;
+    box-shadow: 0px 0px 10px #A2A2A229;
+}
+.ministry-text{
+    text-align: justify;
+    line-height: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Our-beliefs.html */
+
+.beliefs-topic{
+    font-size: 1.4rem;
+    margin-top: 0.7rem;
+    margin-bottom: 1.7rem;
+    text-align: left;
+    color: rgb(39, 78, 252);
+}
+
+.beliefs-text{
+    text-align: justify;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+/* Contacts.html */
+.contact-address{
+    margin-top: 2rem;
+}
+.contact-topic{
+    text-align: center;
+    font-weight: 500;
+}
+.contact-text{
+    text-align: center;
+    font-weight: lighter;
+}
+
+#map{
+    width:320px;
+    height:350px;
+}
+
+
+/* Media Queries */
+@media(min-width: 700px){
+    body{
+    line-height: 38px;
+    font-size: 1.3em;
+    font-weight: 400;
+    }
+    /* header{
+        width: 100%;
+        min-height: 500px;
+        position: relative;
+    } */
+
+    .slider .indicators .indicator-item.active {
+        background-color: rgb(0, 0, 179);
+      }
+
+    #bulletin{
+        width:380px;
+        height:620px;
+    }
+    #divider p{
+        font-size: 0.8em;
+        color: white;
+    }
+    #divider h5{
+        font-size: 1.5em;
+        color: white;
+    }
+    .location{
+        margin-left: 5.5rem;
+    }
+    
+    .num{
+        font-size: 0.9em;
+        margin-right: 0;
+    }
+    .parallax-container {
+        height: 250px;
+      }
+
+      #map{
+        width:380px;
+    }
+}
+
+@media(min-width: 992px){
+    /* header{
+        min-height: 550px;
+        position: relative;
+    } */
+    #logo{
+        margin-left: 0rem;
+    }
+    #nav-bar{
+        margin-right: 2rem;
+    }
+    
+    #mobile-nav{
+        margin-left: 4rem;
+        color: rgb(3, 3, 136); 
+    }
+    #bulletin{
+        width:500px;
+        height:810px;
+    }
+    .parallax-container {
+        height: 350px;
+      }
+
+    .location{
+        margin-left: 5.5rem;
+    }
+    
+    .num{
+        font-size: 0.9em;
+        margin-right: 0;
+    }    
+}
